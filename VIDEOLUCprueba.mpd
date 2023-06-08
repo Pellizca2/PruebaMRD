@@ -1,106 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2015-01-01T00:00:03Z" publishTime="2021-10-05T22:15:34.810513Z" minimumUpdatePeriod="PT2S" minBufferTime="PT2S" timeShiftBufferDepth="PT5M2S" maxSegmentDuration="PT3S">
-  
-<BaseURL>https://cache2.zapitv.com/live/eds_c2/VIDEOLUC/dash_live_enc/</BaseURL>
-<Period id="1" start="PT0S">
-    <AdaptationSet id="1" group="1" mimeType="audio/mp4" lang="und" contentType="audio" segmentAlignment="true">
-<ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/><ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/><ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="e6e5e03a-99e0-5e8d-be66-452de0685e0a" /> 
-<cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgiEJzBwcxaqHYefqdduLVPj+dI49yVmwY=</cenc:pssh>     <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2015-01-01T00:00:03Z" publishTime="2023-06-08T21:09:18.556267Z" minimumUpdatePeriod="PT2S" minBufferTime="PT2S" timeShiftBufferDepth="PT5M2S" maxSegmentDuration="PT3S">
+  <Period id="1" start="PT0S">
+    <AdaptationSet id="1" group="1" mimeType="audio/mp4" lang="es" contentType="audio" segmentAlignment="true">
+<ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/><ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/><ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="f8edf4f8-3a7a-4aec-b1c5-bdfe43286f01" />      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
       <SegmentTemplate timescale="48000" initialization="VIDEOLUC-$RepresentationID$-scale=48000-init.mp4" media="VIDEOLUC-$RepresentationID$-scale=48000-$Time$.mp4">
-           <SegmentTimeline>
-        <S t="12756177207360" d="95232" />
-          <S d="96256" r="2" />
+        <SegmentTimeline>
+          <S t="12777016944192" d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="2" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
           <S d="95232" />
-          <S d="96256" r="1" />
+          <S d="96255" />
+          <S d="96256" />
+          <S d="96257" />
         </SegmentTimeline>
-         </SegmentTemplate>
-      <Representation id="mp4a_96000=2" bandwidth="96000" audioSamplingRate="48000" codecs="mp4a.40.2">
+      </SegmentTemplate>
+      <Representation id="mp4a_179600_spa=15" bandwidth="179600" audioSamplingRate="48000" codecs="mp4a.40.2">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
       </Representation>
     </AdaptationSet>
-    <AdaptationSet id="2" group="2" frameRate="25" mimeType="video/mp4" startWithSAP="1" contentType="video" par="30:17" minBandwidth="1000000" maxBandwidth="5000000" minWidth="640" maxWidth="1920" minHeight="360" maxHeight="1088" segmentAlignment="true">
-<ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/><ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/><ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="49e35f7f-848b-5c82-a6e3-8993c0ba9165" />
-<cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgiEJzBwcxaqHYefqdduLVPj+dI49yVmwY=</cenc:pssh>      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+    <AdaptationSet id="2" group="2" frameRate="25" mimeType="video/mp4" startWithSAP="1" contentType="video" par="16:9" minBandwidth="1499968" maxBandwidth="4000000" minWidth="960" maxWidth="1920" minHeight="540" maxHeight="1080" segmentAlignment="true">
+<ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/><ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/><ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="f8edf4f8-3a7a-4aec-b1c5-bdfe43286f01" />      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
       <SegmentTemplate timescale="25" initialization="VIDEOLUC-$RepresentationID$-scale=25-init.mp4" media="VIDEOLUC-$RepresentationID$-scale=25-$Time$.mp4">
         <SegmentTimeline>
-         <S t="6643842295" d="50" r="150" />
+          <S t="6654696325" d="50" r="150" />
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation id="avc1_1000000=1" bandwidth="1000000" width="640" height="360" sar="135:136" codecs="avc1.64001e" />
-      <Representation id="avc1_1700000=3" bandwidth="1700000" width="960" height="540" sar="135:136" codecs="avc1.64001f" />
-      <Representation id="avc1_5000000=4" bandwidth="5000000" width="1920" height="1080" sar="135:136" codecs="avc1.640028" />
+      <Representation id="avc1_1499968=13" bandwidth="1499968" width="960" height="540" sar="1:1" codecs="avc1.4d401f" />
+      <Representation id="avc1_3000000=16" bandwidth="3000000" width="1280" height="720" sar="1:1" codecs="avc1.4d401f" />
+      <Representation id="avc1_4000000=17" bandwidth="4000000" width="1920" height="1080" sar="1:1" codecs="avc1.4d4028" />
     </AdaptationSet>
   </Period>
 </MPD>
