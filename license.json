@@ -1,0 +1,9 @@
+{"status":"OK","license":[{"type":"WIDEVINE","system_id":"edef8ba979d64acea3c827dc
+d51d21ed"}],"tracks":[{"type":"FHD","key_id":"ZGG01YZq3ZJLbK3Cz1nOhA","key":"
+DTWpM6gMSLyY8XkG7oOlbQ","pssh":[{"drm_type":"WIDEVINE","data":"AAAAOnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABoIARIQJV+HkVcUTOqSObPIPf9RgiIENDg4Mg=="}],"entitled_key":[]},{"type":"HD","key_id":"ZGG01YZq3ZJLbK3Cz1nOhA","key":"
+DTWpM6gMSLyY8XkG7oOlbQ","pssh":[{"drm_type":"WIDEVINE","
+data":"AAAAOnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABoIARIQJV+HkVcUTOqSObPIPf9RgiIENDg4Mg=="}],"entitled_key":[]},{"type":"AUDIO",
+"key_id":"ZGG01YZq3ZJLbK3Cz1nOhA","key":"
+DTWpM6gMSLyY8XkG7oOlbQ","pssh":[{
+"drm_type":"WIDEVINE","data":"AAAAOnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABoIARIQJV+HkVcUTOqSObPIPf9RgiIENDg4Mg=="}],"entitled_ke
+y":[]}],"already_used":true}
