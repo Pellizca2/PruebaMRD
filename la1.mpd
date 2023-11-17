@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BaseURL>https://b43955-p7-hb6-aemx6pov-ta0ff6b.1.cdn.telefonica.com/_43955/</BaseURL>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:cmaf:2019,urn:mpeg:dash:profile:isoff-live:2011" id="716cf14dcd2b481bb67e41a4eab2a1ff/7e126d939a6e4c25a5f4cb3f864ed110" type="dynamic" minBufferTime="PT1.000S" maxSegmentDuration="PT6.600S" availabilityStartTime="1970-01-01T00:00:00.000Z" publishTime="2023-11-17T21:23:44.105Z" minimumUpdatePeriod="PT6.000S" timeShiftBufferDepth="PT7206.000S">
-   <Period id="5539936224" start="PT1696310363.105S">
+<BaseURL>https://b43955-p7-hb6-aemx6pov-ta0ff6b.1.cdn.telefonica.com/_43955/</BaseURL>  
+<Period id="5539936224" start="PT1696310363.105S">
       <AssetIdentifier schemeIdUri="urn:eidr" value="md:cid:EIDR:10.5240%2f0000-8D07-C409-0000-0000-C" />
       <AdaptationSet id="1" contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080" maxFrameRate="25" par="16:9">
          <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="ec2846d2-c0e0-4531-be51-00e0c4c7decd" />
