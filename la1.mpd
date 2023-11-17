@@ -17,7 +17,7 @@
                <S t="997623012224" d="540000" r="1200" />
             </SegmentTimeline>
          </SegmentTemplate>
-         <Representation id="v0_101" bandwidth="6000000" codecs="avc1.4D4028" width="1920" height="1080" frameRate="25" sar="1:1" scanType="progressive" />
+         <Representation id="v0_101" bandwidth="6000000" codecs="avc1.4D4028" width="1920" height="1080" frameRate="50" sar="1:1" scanType="progressive" />
          <Representation id="v1_101" bandwidth="3499968" codecs="avc1.4D401F" width="1280" height="720" frameRate="25" sar="1:1" scanType="progressive" />
          <Representation id="v2_101" bandwidth="2000000" codecs="avc1.4D401F" width="1024" height="576" frameRate="25" sar="1:1" scanType="progressive" />
          <Representation id="v3_101" bandwidth="1400000" codecs="avc1.4D401E" width="640" height="360" frameRate="25" sar="1:1" scanType="progressive" />
