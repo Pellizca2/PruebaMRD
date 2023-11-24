@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:Playready" type="static" mediaPresentationDuration="PT5881S" minBufferTime="PT6S">
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:Playready" type="dynamic" mediaPresentationDuration="PT5881S" minBufferTime="PT6S">
 <BaseURL>https://b44195-p7-ha3-aemh6pov-t666254.1.cdn.telefonica.com/_44195/4501/vxfmt=dp/</BaseURL>
 <Period id="id_PT1698046393S" duration="PT5874.000S">
   <AdaptationSet id="0" mimeType="video/mp4" contentType="video" segmentAlignment="true" startWithSAP="1">
