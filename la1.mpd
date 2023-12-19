@@ -2,7 +2,7 @@
 <MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" publishTime="2023-12-19T05:03:14.274Z" minimumUpdatePeriod="PT2S" availabilityStartTime="2023-10-10T10:25:06.094Z" minBufferTime="PT2S" suggestedPresentationDelay="PT6S" timeShiftBufferDepth="PT20S" profiles="urn:mpeg:dash:profile:isoff-live:2011">
 <BaseURL>https://b43744-p7-h3c-aenh6pov-t5c53ad.1.cdn.telefonica.com/_43744/</BaseURL> 
 <Period start="PT0S" id="1">
-    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" subsegmentAlignment="true" startWithSAP="1" subsegmentStartsWithSAP="1" bitstreamSwitching="false">
+    <AdaptationSet id="1" contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080" maxFrameRate="25" par="16:9">
       <ContentProtection cenc:default_KID="14fc0e3b-249a-43fa-a52f-c69279e77cab" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
       <ContentProtection cenc:default_KID="14fc0e3b-249a-43fa-a52f-c69279e77cab" schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
         <cenc:pssh xmlns:cenc="urn:mpeg:cenc:2013">AAAAOnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABoIARIQFPwOOySaQ/qlL8aSeed8qyIENDUyMQ==</cenc:pssh>
