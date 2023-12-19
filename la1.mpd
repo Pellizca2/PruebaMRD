@@ -7,7 +7,7 @@
     <BaseURL>https://b43744-p7-h3c-aenh6pov-t5c53ad.1.cdn.telefonica.com/_43744/</BaseURL>
 	<Period id="380903592224" start="PT1693394598.707S">
         <AssetIdentifier schemeIdUri="urn:eidr" value="md:cid:EIDR:10.5240%2f0000-8D07-C409-0000-0000-C"/>
-        <AdaptationSet id="1" contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080" maxFrameRate="25" par="16:9">
+        <AdaptationSet mimeType="video/mp4" segmentAlignment="true" subsegmentAlignment="true" startWithSAP="1" subsegmentStartsWithSAP="1" bitstreamSwitching="false">
             <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="14fc0e3b-249a-43fa-a52f-c69279e77cab"/>
             <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
                 <cenc:pssh>AAAAOnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABoIARIQFPwOOySaQ/qlL8aSeed8qyIENDUyMQ==</cenc:pssh>
