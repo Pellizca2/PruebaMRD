@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" publishTime="2023-12-19T05:03:14.274Z" minimumUpdatePeriod="PT2S" availabilityStartTime="2023-10-10T10:25:06.094Z" minBufferTime="PT2S" suggestedPresentationDelay="PT6S" timeShiftBufferDepth="PT20S" profiles="urn:mpeg:dash:profile:isoff-live:2011">
-<BaseURL>https://b43744-p7-h3c-aenh6pov-t5c53ad.1.cdn.telefonica.com/_43744/</BaseURL> 
-
-<?xml version="1.0" encoding="UTF-8"?>
 <MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011"  xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:cmaf:2019,urn:mpeg:dash:profile:isoff-live:2011" id="716cf14dcd2b481bb67e41a4eab2a1ff/63e6d11d1927402187745b4322382794" type="dynamic" minBufferTime="PT1.000S" maxSegmentDuration="PT6.600S" availabilityStartTime="1970-01-01T00:00:00.000Z" publishTime="2023-12-19T05:24:01.707Z" minimumUpdatePeriod="PT6.000S" timeShiftBufferDepth="PT7206.000S">
 <BaseURL>https://b43744-p7-h3c-aenh6pov-t5c53ad.1.cdn.telefonica.com/_43744/</BaseURL>   
 <Period id="380903592224" start="PT1693394598.707S">
