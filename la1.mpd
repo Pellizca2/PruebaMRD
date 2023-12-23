@@ -15,7 +15,7 @@
             </ContentProtection>
             <SegmentTemplate availabilityTimeOffset="-10.335" timescale="90000" initialization="$RepresentationID$-init.m4s" media="$RepresentationID$-0-T-$Time$.m4s" presentationTimeOffset="380903592224">
                 <SegmentTimeline>
-                    <S t="1241451012224" d="540000" r="9999999999" />
+                    <S t="1241451012224" d="540000" r="1200" />
                 </SegmentTimeline>
             </SegmentTemplate>
             <Representation id="v0_101" bandwidth="6000000" codecs="avc1.4D4028" width="1920" height="1080" frameRate="25" sar="1:1" scanType="progressive"/>
@@ -39,7 +39,7 @@
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="alternate"/>
             <SegmentTemplate availabilityTimeOffset="-10.335" timescale="90000" initialization="$RepresentationID$-initTrickMode.m4s" media="$RepresentationID$-0-T-TrickMode-$Time$.m4s" presentationTimeOffset="380903592224">
                 <SegmentTimeline>
-                    <S t="1241451012224" d="540000" r="9999999999" />
+                    <S t="1241451012224" d="540000" r="1200" />
                 </SegmentTimeline>
             </SegmentTemplate>
             <Representation id="v0_101_tm" bandwidth="6000000" codecs="avc1.4D4028" width="1920" height="1080" frameRate="1" sar="1:1" scanType="progressive" maxPlayoutRate="25.000"/>
@@ -62,7 +62,7 @@
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
             <SegmentTemplate availabilityTimeOffset="-10.335" timescale="90000" initialization="$RepresentationID$-init.m4s" media="$RepresentationID$-0-T-$Time$.m4s" presentationTimeOffset="380903592224">
                 <SegmentTimeline>
-                    <S t="1241451029384" d="535680" r="9999999999" />
+                    <S t="1241451029384" d="535680" r="2" />
                     <S d="552960" />
                     <S d="535680" r="2" />
                     <S d="552960" />
@@ -682,7 +682,7 @@
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="dub"/>
             <SegmentTemplate availabilityTimeOffset="-10.335" timescale="90000" initialization="$RepresentationID$-init.m4s" media="$RepresentationID$-0-T-$Time$.m4s" presentationTimeOffset="380903592224">
                 <SegmentTimeline>
-                    <S t="1241451029384" d="535680" r="9999999999" />
+                    <S t="1241451029384" d="535680" r="2" />
                     <S d="552960" />
                     <S d="535680" r="2" />
                     <S d="552960" />
@@ -1295,11 +1295,14 @@
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="alternate"/>
             <SegmentTemplate availabilityTimeOffset="-10.335" timescale="90000" initialization="$RepresentationID$-init.m4s" media="$RepresentationID$-subtitle_301_888_0-0-T-vtt-$Time$.m4s" presentationTimeOffset="380903592224">
                 <SegmentTimeline>
-                    <S t="1241451012224" d="540000" r="9999999999" />
+                    <S t="1241451012224" d="540000" r="1200" />
                 </SegmentTimeline>
             </SegmentTemplate>
             <Representation id="webvtt-subtitle_301_888" bandwidth="300000" codecs="wvtt"/>
         </AdaptationSet>
+    </Period>
+    <UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value="2023-12-19T05:24:12.042Z"></UTCTiming>
+</MPD>
     </Period>
     <UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value="2023-12-19T05:24:12.042Z"></UTCTiming>
 </MPD>
